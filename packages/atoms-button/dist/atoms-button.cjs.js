@@ -1,4 +1,12 @@
-import React from 'react';
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var React = require('react');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 function styleInject(css, ref) {
   if (ref === void 0) ref = {};
@@ -29,14 +37,14 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".styles_Button__1GGo2 {\n  background-color: red;\n}\n";
-var styles = {"Button":"styles_Button__1GGo2"};
+var css_248z = ".styles_Button__2GmQd {\n  background-color: red;\n}\n";
+var styles = {"Button":"styles_Button__2GmQd"};
 styleInject(css_248z);
 
 var Button = function Button() {
-  return /*#__PURE__*/React.createElement("button", {
+  return /*#__PURE__*/React__default['default'].createElement("button", {
     className: styles.Button
   }, "checkou this button");
 };
 
-export { Button };
+exports.Button = Button;

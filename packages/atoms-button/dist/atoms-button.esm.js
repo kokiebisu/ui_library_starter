@@ -29,8 +29,8 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".styles_Button__1GGo2 {\n  background-color: red;\n}\n";
-var styles = {"Button":"styles_Button__1GGo2"};
+var css_248z = ".styles_Button__2GmQd {\n  background-color: red;\n}\n";
+var styles = {"Button":"styles_Button__2GmQd"};
 styleInject(css_248z);
 
 var Button = function Button() {
